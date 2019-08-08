@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+p{
+    text-align: center;
+    font-size: 1.8em;
+    color: red;
+    background-color: blanchedalmond;
+}
+h3{
+    font-size: 1.4em;
+    background-color: aqua;
+}
+table{
+    font-size: 1.1em;
+     background-color: lightblue;
+}
+body{
+    background-color: azure;
+}
+mat-tap{
+    font-size: 1em;
+    font-weight: bold;
+}

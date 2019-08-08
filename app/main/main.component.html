@@ -1,0 +1,38 @@
+<p>main works!</p>
+<mat-tab-group mat-stretch-tabs class="example-stretched-tabs mat-elevation-z4">
+    <mat-tab class="menu" label="Breakfast">
+      <h3>List of BreakFast:</h3>
+  
+      <table><tr><th>Name</th><th>Price</th><th>Calories</th></tr>
+  
+      <tr *ngFor=" let breakfast of breakfastL">
+        <td> {{breakfast.name}}</td>
+        <td> {{breakfast.price}}</td>
+  
+        <td> {{breakfast.calories}}</td>
+  
+      </tr></table>
+    </mat-tab>
+    <mat-tab class="menu" label="Lunch">
+      <h3>List of Lunch Meal:</h3>
+      <table><tr><th>Name</th><th>Price</th><th>Calories</th></tr>
+        <tr *ngFor ="let lunch of lunchL">
+          <td> {{lunch.name}}</td>
+        <td> {{lunch.price}}</td>
+  
+        <td> {{lunch.calories}}</td>
+        </tr></table>
+      </mat-tab>
+  
+      <mat-tab class="menu" label="Dinner">
+        <h3>List of Dinner Meal:</h3>
+        <table><tr><th>Name</th><th>Price</th><th>Calories</th></tr>
+          <tr *ngFor ="let dinner of dinnerL">
+            <td> {{dinner.name}}</td>
+          <td> {{dinner.price}}</td>
+    
+          <td> {{dinner.calories}}</td>
+          </tr></table>
+        </mat-tab>
+  </mat-tab-group>
+  

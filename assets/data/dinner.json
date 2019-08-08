@@ -1,0 +1,17 @@
+{
+    "dinner": [{
+        "name" : "Salad",
+        "price": "$5",
+        "calories": "100g"
+    },
+{
+    "name": "Boiled Vegetable",
+    "price": "$4.50",
+    "calories": "120g"
+},
+{
+    "name": "Chicken Breast",
+    "price":"$5.50",
+    "calories": "200g"
+}]
+}

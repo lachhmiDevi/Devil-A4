@@ -1,0 +1,17 @@
+{
+    "lunch": [{
+        "name" : "Kadhi Rice",
+        "price": "$8",
+        "calories": "420g"
+    },
+{
+    "name": "Dal Makhnai",
+    "price": "$5.50",
+    "calories": "550g"
+},
+{
+    "name": "Chicken Curry",
+    "price":"$7.50",
+    "calories": "650g"
+}]
+}

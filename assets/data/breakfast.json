@@ -1,0 +1,17 @@
+{
+    "breakfast": [{
+        "name" : "Omelette",
+        "price": "$6.50",
+        "calories": "320g"
+    },
+{
+    "name": "Muffin",
+    "price": "$2",
+    "calories": "200g"
+},
+{
+    "name": "Sandwich",
+    "price":"$3",
+    "calories": "400g"
+}]
+}
